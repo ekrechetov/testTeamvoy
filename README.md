@@ -1,7 +1,7 @@
 ## Test task: Pokedex
 #### This project on Githab pages:
 #### https://ekrechetov.github.io/testTeamvoy/
-##### Client app for REST Pokemon API(HTML, CSS, Java Script, Ajax). Adaptive styling,  elements filter.
+##### Client app for REST Pokemon API (HTML, CSS, Java Script, Ajax). Adaptive styling,  elements filter. Сross-browser compatibility is not provided for in this task.
 #### Use:
 
 - On load of the page 12 pokemons is being loaded and displayed on the page
