@@ -7,7 +7,7 @@ const typesColors = {};//types colors for type-bg
 $(document).ready(function() {
   showLoader();
   $.ajax({
-    url: 'http://pokeapi.co/api/v2/pokemon/?limit=12',
+    url: 'https://pokeapi.co/api/v2/pokemon/?limit=12',
     type: 'GET',
     success: function(respons) {            
       respons.results.map((elem, index) => {
@@ -38,7 +38,7 @@ $(document).ready(function() {
 
 // Get all pokemons types and create typesColors object for bg:
 $.ajax({
-  url: 'http://pokeapi.co/api/v2/type/?limit=999',
+  url: 'https://pokeapi.co/api/v2/type/?limit=999',
   type: 'GET',
   success: function(res) {
     res.results.map(item => {

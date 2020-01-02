@@ -38,7 +38,7 @@ function generateList(res) {
 function getNextChunk() { 
   showLoader(); 
   $.ajax({
-    url: `http://pokeapi.co/api/v2/pokemon/?offset=${offset + 12}&limit=12`,
+    url: `https://pokeapi.co/api/v2/pokemon/?offset=${offset + 12}&limit=12`,
     type: 'GET',
     success: function(respons) {
       respons.results.map((elem, index) => {
@@ -100,7 +100,7 @@ function generateData(res) {
 
 function showInfo(id) {
   $.ajax({
-    url: `http://pokeapi.co/api/v2/pokemon/${id}`,
+    url: `https://pokeapi.co/api/v2/pokemon/${id}`,
     type: 'GET',
     success: function(res) {      
       generateData(res);
