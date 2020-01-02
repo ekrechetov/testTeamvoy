@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <title>Pokedex</title>
+</head>
+<body>  
+  <div>
+    <div class="container">
+      <header class="header">Pokedex</header>
+      <div class="container">
+        <div class="main-filter-reset" onclick="resetFilter()">Filter reset</div>
+      </div>
+      <main class="main">        
+        <div class="pokemons-box">          
+          <ul class="pokemons-list"></ul>
+          <div class="add-btn">Load More</div>
+        </div>
+        <div id="data-box" class="pokemon-data"></div>                    
+      </main>
+    </div>    
+  </div>
+  <div class="dark-bg"></div>
+
+  <script src="./js/index.js"></script>
+  <script src="./js/functions.js"></script>
+</body>
+</html>
